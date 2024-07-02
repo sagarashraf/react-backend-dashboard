@@ -22,7 +22,7 @@ app.use(
 );
 // Define the GET route for the homepage
 app.get("/", (req, res) => {
-  res.send("<h1>Welcome to Backend</h1>");
+  res.send("<h1>Welcome to Backend testing</h1>");
 });
 
 // Define the GET route for fetching product settings
